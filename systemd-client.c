@@ -47,7 +47,7 @@
 #  include <mqueue.h>
 #endif
 
-#include "sd-daemon.h"
+#include "systemd-client.h"
 
 #if (__GNUC__ >= 4)
 #  ifdef SD_EXPORT_SYMBOLS

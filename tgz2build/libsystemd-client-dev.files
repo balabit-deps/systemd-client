@@ -1,4 +1,4 @@
 opt/syslog-ng/lib/libsystemd*.so*
 opt/syslog-ng/lib/libsystemd*.a*
-opt/syslog-ng/include/sd-daemon.h
+opt/syslog-ng/include/systemd-client.h
 
