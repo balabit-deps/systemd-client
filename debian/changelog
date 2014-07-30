@@ -1,0 +1,5 @@
+systemd-client (0.0.1) syslogng52; urgency=low
+
+  * Initial release.
+
+ -- Tusa Viktor <tusa@tusa.balabit>  Wed, 30 Jul 2014 18:30:20 +0200
