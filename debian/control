@@ -1,0 +1,19 @@
+Source: systemd-client
+Section: libs
+Priority: extra
+Maintainer: Viktor Tusa <tusa@balabit.hu>
+Build-depends: debhelper (>=4)
+Standards-Version: 3.6.2
+
+Package: libsystemd-client
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}
+Description: Systemd client library for common systemd tasks
+
+Package: libsystemd-client-dev
+Architecture: any
+Section: libdevel
+Depends: libsystemd-client
+Description: libivykis-dev
+
