@@ -1,1 +1,1 @@
-/opt/syslog-ng/lib/libsystemd*.so*
+opt/syslog-ng/lib/libsystemd*.so*
