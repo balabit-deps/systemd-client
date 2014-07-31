@@ -47,19 +47,9 @@
 #  include <mqueue.h>
 #endif
 
-#include "sd-daemon.h"
+#define _sd_export_
 
-#if (__GNUC__ >= 4)
-#  ifdef SD_EXPORT_SYMBOLS
-/* Export symbols */
-#    define _sd_export_ __attribute__ ((visibility("default")))
-#  else
-/* Don't export the symbols */
-#    define _sd_export_ __attribute__ ((visibility("hidden")))
-#  endif
-#else
-#  define _sd_export_
-#endif
+#include "sd-daemon.h"
 
 _sd_export_ int sd_listen_fds(int unset_environment) {
 

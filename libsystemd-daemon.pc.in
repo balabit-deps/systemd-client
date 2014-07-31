@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: systemd-client
+Description: systemd Daemon Utility Library - deprecated
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lsystemd-client
+Cflags: -I${includedir}
