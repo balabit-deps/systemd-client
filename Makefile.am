@@ -1,3 +1,3 @@
 lib_LTLIBRARIES = libsystemd-client.la
-libsystemd_client_la_SOURCES = systemd-client.c
-include_HEADERS = systemd-client.h
+libsystemd_client_la_SOURCES = sd-daemon.c
+include_HEADERS = sd-daemon.h
