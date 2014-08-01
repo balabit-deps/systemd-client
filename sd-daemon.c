@@ -49,7 +49,7 @@
 
 #define _sd_export_
 
-#include "sd-daemon.h"
+#include <systemd/sd-daemon.h>
 
 _sd_export_ int sd_listen_fds(int unset_environment) {
 
