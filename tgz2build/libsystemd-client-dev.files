@@ -1,4 +1,5 @@
 opt/syslog-ng/lib/libsystemd*.so*
 opt/syslog-ng/lib/libsystemd*.a*
+opt/syslog-ng/lib/pkgconfig/*
 opt/syslog-ng/include/systemd/sd-daemon.h
 
