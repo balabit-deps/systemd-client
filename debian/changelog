@@ -1,3 +1,9 @@
+systemd-client (1.0.0) syslogng52; urgency=medium
+
+  * Some error corrections
+
+ -- jviktor <jviktor@devel-57>  Fri, 26 Sep 2014 11:48:28 +0200
+
 systemd-client (0.0.1) syslogng52; urgency=low
 
   * Initial release.
