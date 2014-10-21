@@ -1,3 +1,9 @@
+systemd-client (1.0.0.syslogng53.1) syslogng53; urgency=low
+
+  * release for syslog-ng-5.3
+
+ -- Tusa Viktor <tusa@tusa.balabit>  Tue, 21 Oct 2014 14:21:24 +0200
+
 systemd-client (1.0.0) syslogng52; urgency=medium
 
   * Some error corrections
