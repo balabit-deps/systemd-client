@@ -1,4 +1,5 @@
-sbuild/build
+sbuild/*
+!sbuild/config.yml
 sbuild/*.pyc
 sbuild.py
 Makefile.in
