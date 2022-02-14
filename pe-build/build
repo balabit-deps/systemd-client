@@ -1,0 +1,16 @@
+source="systemd-client"
+version=1.0.0-pe-1
+
+bootstrap() {
+  ./autogen.sh
+}
+
+build() {
+  cd "${build_dir}"
+  ${src_dir}/configure --prefix="${prefix}"
+  make
+}
+
+install() {
+  make -C "${build_dir}" DESTDIR="${dest_dir}" install
+}
